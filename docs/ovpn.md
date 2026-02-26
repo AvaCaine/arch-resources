@@ -1,4 +1,5 @@
-# Open-VPN easy startup script for simplicity, and high success, does not get blocked/circumvented by wifi restrictions.
+# Open-VPN easy startup script
+Built for simplicity, and high success, does not get blocked/circumvented by wifi restrictions.
 ```sh
 #!/bin/bash
 
