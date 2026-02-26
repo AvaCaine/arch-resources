@@ -12,7 +12,7 @@ sleep 2
 
 # 2. Start OpenVPN
 echo "Starting OpenVPN..."
-sudo openvpn --config /etc/openvpn/client/ca-free-7.protonvpn.tcp.ovpn --daemon
+sudo openvpn --config /etc/openvpn/client/ca-free-7.protonvpn.tcp.ovpn --daemon # Replace file with your path to ovpn file, ovpn file should be in /et/openvpn/client, if not, it is recommended you put it there.
 
 echo "Waiting for a tun interface to get an IP..."
 
